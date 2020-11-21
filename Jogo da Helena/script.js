@@ -1,9 +1,8 @@
 
-//Apaga a div img, e redefini o bloco da div com esse novo comando de imagem
 
-var foto = document.getElementById('img'); // chama o ID da tag a ser redefinida - variavel global que da para se chamar em todas as funções
+var foto = document.getElementById('img'); 
 
-var h2 = document.querySelector('h2'); //variavel global que da para se chamar em todas as funções
+var h2 = document.querySelector('h2'); 
 
 var botaosim = document.getElementById('botaosim');
 

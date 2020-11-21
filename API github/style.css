@@ -1,0 +1,130 @@
+body{ 
+    padding: 0; 
+    margin: 0;
+    background-color: #95ffff;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+ 
+}
+
+#telaPrincipal {
+    background-image: linear-gradient(to bottom , #39ebbb, #0C4536);
+    color: white;
+    font-family: monospace;
+    text-transform: uppercase;
+    width: 30%;
+    height: 350px;
+    margin-top: 10%;
+    border-radius: 15px;
+    box-shadow: 5px 5px 8px black ;
+    padding-top: 35px;
+    box-sizing: border-box;
+}
+
+
+h1 {
+    text-align: center;
+    font-size: 30px;
+
+}
+
+
+#pesquisa {
+    width: 70%;
+    height: 35px;
+    border: 1px solid black;
+    border-radius: 8px 0px 0px 8px;
+    font-family: monospace;
+    padding-left: 10px;
+    font-size: 20px;
+    margin-right: 0;
+    
+
+}
+
+#logo {
+width: 50%;
+
+}
+
+#botao {
+    height: 41px;
+    margin-left: 0px;
+    font-size: 20px;
+    border-radius: 0px 8px 8px 0px;
+}
+
+#container {
+    width: 70%;
+    height:auto ;
+    margin: 2% auto;
+    background: white;
+    border: 1px solid black;
+}
+
+.titulo {
+    width: 100%;
+    margin-top: 0;
+    height: 50px;
+    background-image: linear-gradient(to bottom , #39ebbb, #0C4536);
+    color: white;
+    font-family: monospace;
+    line-height: 50px;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+#perfil {
+    width: 25%;
+
+}
+
+#nome {
+    text-decoration: none;
+    font-size: 30px;
+    color: black;
+
+}
+
+
+
+#repositorio {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+#repoindividual {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 44%;
+    height: 70px;
+    background-color: rgb(68, 240, 68);
+    color: black;
+    border-radius: 0px 8px 0px 8px;
+    margin: 2%;
+    box-shadow: 5px 5px 8px black;
+
+}
+
+.link {
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+}
+
+
+.link:hover {
+    color: white;
+}
